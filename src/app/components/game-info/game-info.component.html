@@ -1,0 +1,18 @@
+<table>
+  <ng-container *ngFor="let result of results">
+    <tr>
+      <td>{{result}}</td>
+    </tr>
+  </ng-container>
+</table>
+
+<button (click)="onCLick()">Start</button>
+
+<table>
+  <thead>Participants</thead>
+  <ng-container *ngFor="let participant of participants">
+    <tr>
+      <td>{{participant}}</td>
+    </tr>
+  </ng-container>
+</table>
